@@ -1,0 +1,22 @@
+# built application files
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+local.properties
+.settings/
+.classpath
+.gradle/
+.project
+.apt_generated
+project.properties
+*/.DS_Store
+*/*/.DS_Store
+.factorypath
+build.xml
+build/
+*.iml
+.idea/
+Thumbs.db
