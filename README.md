@@ -1,4 +1,4 @@
-#Sporting Innovations Development Homework#
+#Sporting Innovations Development Example#
 
 ##Requirements##
 Display a list of basic event details from a list of events hosted on a server.
@@ -38,3 +38,13 @@ The proper event image to use is the first object in the `asset` list. Use `asse
 `https://raw.githubusercontent.com/sporting-innovations/fan360-sandbox/master/service/images/[asset.externalId].[png or jpeg]`
 
 Be sure to supply the token on the image API.
+
+##Logistics##
+
+1. Fork this `fan360-sandbox` project.
+2. Checkout your relevant platform branch (iOS, Android).
+3. Use the skeleton project as a starting poing to complete the example.
+4. Use any resources you need, and ask any questions you like.
+4. Commit your code changes.
+5. Create a pull-request into the platform branch with your changes.
+	* Tag `nicolaskline` on the pull-request. 
