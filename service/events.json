@@ -1,0 +1,312 @@
+[
+  {
+    "id": "c322f10e-19f8-4a05-8894-fff1f1b27641",
+    "primaryName": {
+      "en-US": "Sporting KC at Montreal"
+    },
+    "secondaryName": {
+      "en-US": "KMCI-TV"
+    },
+    "shortName": {
+      "en-US": "MTLvSKC"
+    },
+    "description": {
+      "en-US": "Sporting KC faces Eastern Conference opponent Montreal at Stade Saputo."
+    },
+    "venueId": "60dc3327-5f37-4c58-994b-adcb53fa4db7",
+    "type": {
+      "key": "SPORTING",
+      "displays": {
+        "en-US": "Sporting"
+      },
+      "ownedByMe": false
+    },
+    "subType": {
+      "key": "SOCCER",
+      "displays": {
+        "en-US": "Soccer"
+      },
+      "ownedByMe": false
+    },
+    "assets": [
+      {
+        "contributorSystem": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "contributorSystemType": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "id": "903bc3a1-5bd9-457a-a0a1-1d8af9e04943",
+        "parent": {
+          "id": "af5549a3-989f-42cf-b53b-b2940388d344",
+          "parentType": {
+            "key": "ORG_EVENT",
+            "displays": {
+              "en-US": "Organization Event"
+            },
+            "ownedByMe": false
+          },
+          "ownedByMe": false
+        },
+        "externalId": "535d48fde4b000cdc02bf09e",
+        "contentType": "image/jpeg",
+        "display": "Event Image: MTLvSKC",
+        "type": {
+          "key": "PRIMARY_IMAGE",
+          "displays": {
+            "en-US": "Primary Image"
+          },
+          "ownedByMe": false
+        },
+        "ownedByMe": true,
+        "lastUpdateDateTime": "2014-05-10T01:10:51-0500"
+      }
+    ],
+    "featured": true,
+    "ownedByMe": false,
+    "startDate": "2014-05-10T00:00:00-0500",
+    "startDateTime": "2014-05-10T15:00:00-0500",
+    "endDateTime": "2014-05-10T19:00:00-0500"
+  },
+  {
+    "id": "55433f7f-ecd2-4b53-af96-5f3717668dc3",
+    "primaryName": {
+      "en-US": "Sporting KC vs Philadelphia"
+    },
+    "secondaryName": {
+      "en-US": "KMCI-TV, Sports Radio 810"
+    },
+    "shortName": {
+      "en-US": "SKCvPHI"
+    },
+    "description": {
+      "en-US": "Sporting KC hosts Eastern Conference opponents Philadelphia Union at Sporting Park."
+    },
+    "venueId": "420068bc-6d46-419c-9bf7-d3453937f68d",
+    "type": {
+      "key": "SPORTING",
+      "displays": {
+        "en-US": "Sporting"
+      },
+      "ownedByMe": false
+    },
+    "subType": {
+      "key": "SOCCER",
+      "displays": {
+        "en-US": "Soccer"
+      },
+      "ownedByMe": false
+    },
+    "assets": [
+      {
+        "contributorSystem": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "contributorSystemType": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "id": "6df391d3-9d77-4e60-bb1d-e19b8aadf125",
+        "parent": {
+          "id": "10a5020f-431c-4ab3-8441-4a9fcd1b85ba",
+          "parentType": {
+            "key": "ORG_EVENT",
+            "displays": {
+              "en-US": "Organization Event"
+            },
+            "ownedByMe": false
+          },
+          "ownedByMe": false
+        },
+        "externalId": "535d4963e4b000cdc02bf0a1",
+        "contentType": "image/jpeg",
+        "display": "Event Image: SKCvPHI",
+        "type": {
+          "key": "PRIMARY_IMAGE",
+          "displays": {
+            "en-US": "Primary Image"
+          },
+          "ownedByMe": false
+        },
+        "ownedByMe": true,
+        "lastUpdateDateTime": "2014-05-10T01:10:52-0500"
+      }
+    ],
+    "featured": true,
+    "ticketable": true,
+    "ownedByMe": false,
+    "startDate": "2014-05-14T00:00:00-0500",
+    "startDateTime": "2014-05-14T19:30:00-0500",
+    "endDateTime": "2014-05-14T23:30:00-0500"
+  },
+  {
+    "id": "fa1adbb2-d967-4cb8-941d-6482feef4fbd",
+    "primaryName": {
+      "en-US": "Sporting KC at Chicago"
+    },
+    "secondaryName": {
+      "en-US": "KMCI-TV, UniMas"
+    },
+    "shortName": {
+      "en-US": "CHIvSKC"
+    },
+    "description": {
+      "en-US": "Sporting KC travels to Toyota Park to face Eastern Conference rivals Chicago."
+    },
+    "venueId": "5255a42c-3b0f-41c8-9375-ec5fc68482df",
+    "type": {
+      "key": "SPORTING",
+      "displays": {
+        "en-US": "Sporting"
+      },
+      "ownedByMe": false
+    },
+    "subType": {
+      "key": "SOCCER",
+      "displays": {
+        "en-US": "Soccer"
+      },
+      "ownedByMe": false
+    },
+    "assets": [
+      {
+        "contributorSystem": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "contributorSystemType": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "id": "52281939-1fcd-4a70-9b57-ac475bb3d15d",
+        "parent": {
+          "id": "13a8b16a-a840-4e87-8e2b-c93f08801a6d",
+          "parentType": {
+            "key": "ORG_EVENT",
+            "displays": {
+              "en-US": "Organization Event"
+            },
+            "ownedByMe": false
+          },
+          "ownedByMe": false
+        },
+        "externalId": "535d49a7e4b015793bc9ead6",
+        "contentType": "image/jpeg",
+        "display": "Event Image: CHIvSKC",
+        "type": {
+          "key": "PRIMARY_IMAGE",
+          "displays": {
+            "en-US": "Primary Image"
+          },
+          "ownedByMe": false
+        },
+        "ownedByMe": true,
+        "lastUpdateDateTime": "2014-05-10T01:10:55-0500"
+      }
+    ],
+    "featured": false,
+    "ownedByMe": false,
+    "startDate": "2014-05-18T00:00:00-0500",
+    "startDateTime": "2014-05-18T14:00:00-0500",
+    "endDateTime": "2014-05-18T18:00:00-0500"
+  },
+  {
+    "id": "603bec92-ae55-439f-9db4-12c41c7186b2",
+    "primaryName": {
+      "en-US": "Sporting KC vs Toronto"
+    },
+    "secondaryName": {
+      "en-US": "KMCI-TV, Sports Radio 810"
+    },
+    "shortName": {
+      "en-US": "SKCvTOR"
+    },
+    "description": {
+      "en-US": "Sporting KC hosts Toronto FC at Sporting Park."
+    },
+    "venueId": "420068bc-6d46-419c-9bf7-d3453937f68d",
+    "type": {
+      "key": "SPORTING",
+      "displays": {
+        "en-US": "Sporting"
+      },
+      "ownedByMe": false
+    },
+    "subType": {
+      "key": "SOCCER",
+      "displays": {
+        "en-US": "Soccer"
+      },
+      "ownedByMe": false
+    },
+    "assets": [
+      {
+        "contributorSystem": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "contributorSystemType": {
+          "key": "FAN360",
+          "displays": {
+            "en-US": "FAN360"
+          },
+          "ownedByMe": false
+        },
+        "id": "5d8f6632-6979-46fa-9f10-439905dc2cf6",
+        "parent": {
+          "id": "240dd94d-b6e3-4b52-b85f-b7a7c5b97b9c",
+          "parentType": {
+            "key": "ORG_EVENT",
+            "displays": {
+              "en-US": "Organization Event"
+            },
+            "ownedByMe": false
+          },
+          "ownedByMe": false
+        },
+        "externalId": "535d49ffe4b015793bc9ead9",
+        "contentType": "image/jpeg",
+        "display": "Event Image: SKCvTOR",
+        "type": {
+          "key": "PRIMARY_IMAGE",
+          "displays": {
+            "en-US": "Primary Image"
+          },
+          "ownedByMe": false
+        },
+        "ownedByMe": true,
+        "lastUpdateDateTime": "2014-05-10T01:10:56-0500"
+      }
+    ],
+    "featured": true,
+    "ticketable": true,
+    "ownedByMe": false,
+    "startDate": "2014-05-23T00:00:00-0500",
+    "startDateTime": "2014-05-23T19:30:00-0500",
+    "endDateTime": "2014-05-23T23:30:00-0500"
+  }
+]
