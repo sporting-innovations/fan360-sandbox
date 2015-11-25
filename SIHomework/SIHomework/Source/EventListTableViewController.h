@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NetworkRequestController.h"
 
-@class NetworkRequestController;
-
-@interface EventListTableViewController : UITableViewController
+@interface EventListTableViewController : UITableViewController <EventFetchDelegate>
 
 @property (nonatomic, strong) NetworkRequestController *networkRequestController;
+@property (nonatomic, strong) NSMutableArray *events;
 
 @end

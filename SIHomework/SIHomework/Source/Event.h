@@ -13,7 +13,10 @@
 @property (strong, nonatomic) NSString *primaryName;
 @property (strong, nonatomic) NSString *secondaryName;
 @property (strong, nonatomic) NSString *eventDescription;
-@property (strong, nonatomic) NSDate *date;
+@property (strong, nonatomic) NSString *startDate;
+@property (strong, nonatomic) NSString *startDateTime;
 @property (strong, nonatomic) UIImage *image;
+
+- (instancetype)initWithJSONObject:(NSDictionary *)dict;
 
 @end

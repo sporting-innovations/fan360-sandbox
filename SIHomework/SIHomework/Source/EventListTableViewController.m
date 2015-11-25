@@ -7,7 +7,7 @@
 //
 
 #import "EventListTableViewController.h"
-#import "NetworkRequestController.h"
+#import "Event.h"
 
 @interface EventListTableViewController ()
 
@@ -18,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.events = [[NSMutableArray alloc] init];
     self.networkRequestController = [[NetworkRequestController alloc] init];
+    self.networkRequestController.delegate = self;
     [self.networkRequestController fetchEventList];
     
     // Uncomment the following line to preserve selection between presentations.
@@ -36,13 +38,11 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return self.events.count;
 }
 
 /*
@@ -98,5 +98,13 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+#pragma mark - EventFetchDelegate
+
+- (void)updateEvents:(NSArray *)events {
+    for (NSDictionary *event in events) {
+        [self.events addObject:[[Event alloc] initWithJSONObject:event]];
+    }
+}
 
 @end

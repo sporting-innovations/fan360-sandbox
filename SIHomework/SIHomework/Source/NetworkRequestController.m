@@ -17,6 +17,9 @@
     NSDictionary *parameters = @{@"token": @"ABmsLgpyv3oHoovLMFnqkt-HUbSkmV0hks5WWMktwA%3D%3D"};
     [manager GET:@"https://raw.githubusercontent.com/sporting-innovations/fan360-sandbox/master/service/events.json" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
+        if ([self.delegate respondsToSelector:@selector(updateEvents:)]) {
+            [self.delegate updateEvents:responseObject];
+        }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];

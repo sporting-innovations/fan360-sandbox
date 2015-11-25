@@ -8,7 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol EventFetchDelegate <NSObject>
+
+- (void)updateEvents:(NSArray *)events;
+
+@end
+
 @interface NetworkRequestController : NSObject
+
+@property (weak, nonatomic) id<EventFetchDelegate> delegate;
 
 - (void)fetchEventList;
 

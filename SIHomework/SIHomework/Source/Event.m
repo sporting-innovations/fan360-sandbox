@@ -10,4 +10,14 @@
 
 @implementation Event
 
+- (instancetype)initWithJSONObject:(NSDictionary *)dict {
+    self.primaryName = dict[@"primaryName"][@"en-US"];
+    self.secondaryName = dict[@"secondaryName"][@"en-US"];
+    self.eventDescription = dict[@"description"][@"en-US"];
+    self.startDate = dict[@"startDate"];
+    self.startDateTime = dict[@"startDateTime"];
+    
+    return self;
+}
+
 @end
