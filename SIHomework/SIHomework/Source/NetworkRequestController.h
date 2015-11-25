@@ -10,4 +10,6 @@
 
 @interface NetworkRequestController : NSObject
 
+- (void)fetchEventList;
+
 @end

@@ -10,6 +10,7 @@
 		ABDF19709EE2057ED086F322 /* libPods-SIHomework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */; };
 		C61F0F401C062FC600FDFE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61F0F3F1C062FC600FDFE2E /* Main.storyboard */; };
 		C61F0F431C06328C00FDFE2E /* NetworkRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F421C06328C00FDFE2E /* NetworkRequestController.m */; };
+		C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */; };
 		EF5AD9651BFBC07300F1E208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD9641BFBC07300F1E208 /* main.m */; };
 		EF5AD9701BFBC07300F1E208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5AD96F1BFBC07300F1E208 /* Assets.xcassets */; };
 		EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */; };
@@ -21,6 +22,8 @@
 		C61F0F3F1C062FC600FDFE2E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SIHomework/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		C61F0F411C06328C00FDFE2E /* NetworkRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequestController.h; sourceTree = "<group>"; };
 		C61F0F421C06328C00FDFE2E /* NetworkRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestController.m; sourceTree = "<group>"; };
+		C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListTableViewController.h; sourceTree = "<group>"; };
+		C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewController.m; sourceTree = "<group>"; };
 		D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIHomework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5AD9601BFBC07300F1E208 /* SIHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5AD9641BFBC07300F1E208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */,
 				C61F0F411C06328C00FDFE2E /* NetworkRequestController.h */,
 				C61F0F421C06328C00FDFE2E /* NetworkRequestController.m */,
+				C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */,
+				C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 			files = (
 				EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */,
 				C61F0F431C06328C00FDFE2E /* NetworkRequestController.m in Sources */,
+				C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */,
 				EF5AD9651BFBC07300F1E208 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
