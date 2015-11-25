@@ -22,12 +22,6 @@
     self.networkRequestController = [[NetworkRequestController alloc] init];
     self.networkRequestController.delegate = self;
     [self.networkRequestController fetchEventList];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,15 +39,16 @@
     return self.events.count;
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"eventItem" forIndexPath:indexPath];
     
     // Configure the cell...
+    Event *theEvent = self.events[indexPath.row];
+    cell.textLabel.text = theEvent.name;
+    cell.detailTextLabel.text = theEvent.eventDescription;
     
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -105,6 +100,7 @@
     for (NSDictionary *event in events) {
         [self.events addObject:[[Event alloc] initWithJSONObject:event]];
     }
+    [self.tableView reloadData];
 }
 
 @end
