@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.tableView.rowHeight = 100;
     self.events = [[NSMutableArray alloc] init];
     self.networkRequestController = [[NetworkRequestController alloc] init];
     self.networkRequestController.delegate = self;
