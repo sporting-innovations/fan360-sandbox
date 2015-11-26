@@ -7,6 +7,7 @@
 //
 
 #import "EventListTableViewController.h"
+#import "EventTableViewCell.h"
 #import "Event.h"
 
 @interface EventListTableViewController ()
@@ -41,12 +42,15 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"eventItem" forIndexPath:indexPath];
+    EventTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"eventItem" forIndexPath:indexPath];
     
     // Configure the cell...
     Event *theEvent = self.events[indexPath.row];
-    cell.textLabel.text = theEvent.name;
-    cell.detailTextLabel.text = theEvent.eventDescription;
+    cell.titleLabel.text = theEvent.name;
+    cell.titleLabel.numberOfLines = 0;
+    cell.descriptionLabel.text = theEvent.eventDescription;
+    cell.descriptionLabel.numberOfLines = 0;
+    cell.imageView.image = theEvent.image;
     
     return cell;
 }
