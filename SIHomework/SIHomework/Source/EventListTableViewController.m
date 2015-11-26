@@ -20,10 +20,9 @@
     [super viewDidLoad];
     
     self.tableView.rowHeight = 100;
-    self.events = [[NSMutableArray alloc] init];
-    self.networkRequestController = [[NetworkRequestController alloc] init];
-    self.networkRequestController.delegate = self;
-    [self.networkRequestController fetchEventList];
+    self.eventsController = [[EventsController alloc] init];
+    self.eventsController.delegate = self;
+    [self.eventsController fetchEventList];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,14 +37,14 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.events.count;
+    return self.eventsController.events.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     EventTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"eventItem" forIndexPath:indexPath];
     
     // Configure the cell...
-    Event *theEvent = self.events[indexPath.row];
+    Event *theEvent = self.eventsController.events[indexPath.row];
     cell.titleLabel.text = theEvent.name;
     cell.titleLabel.numberOfLines = 0;
     cell.descriptionLabel.text = theEvent.eventDescription;
@@ -99,12 +98,9 @@
 }
 */
 
-#pragma mark - EventFetchDelegate
+#pragma mark - EventsControllerDelegate
 
-- (void)updateEvents:(NSArray *)events {
-    for (NSDictionary *event in events) {
-        [self.events addObject:[[Event alloc] initWithJSONObject:event]];
-    }
+- (void)updateEvents {
     [self.tableView reloadData];
 }
 

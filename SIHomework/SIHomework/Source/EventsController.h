@@ -8,15 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol EventFetchDelegate <NSObject>
+@protocol EventsControllerDelegate <NSObject>
 
-- (void)updateEvents:(NSArray *)events;
+- (void)updateEvents;
 
 @end
 
-@interface NetworkRequestController : NSObject
+@interface EventsController : NSObject
 
-@property (weak, nonatomic) id<EventFetchDelegate> delegate;
+@property (weak, nonatomic) id<EventsControllerDelegate> delegate;
+@property (strong, atomic) NSMutableArray *events;
 
 - (void)fetchEventList;
 

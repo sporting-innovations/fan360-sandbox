@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		ABDF19709EE2057ED086F322 /* libPods-SIHomework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */; };
 		C61F0F401C062FC600FDFE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61F0F3F1C062FC600FDFE2E /* Main.storyboard */; };
-		C61F0F431C06328C00FDFE2E /* NetworkRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F421C06328C00FDFE2E /* NetworkRequestController.m */; };
+		C61F0F431C06328C00FDFE2E /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F421C06328C00FDFE2E /* EventsController.m */; };
 		C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */; };
 		C61F0F491C0658B200FDFE2E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F481C0658B200FDFE2E /* Event.m */; };
 		C61F0F4D1C06D76B00FDFE2E /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */; };
@@ -22,8 +22,8 @@
 		2FB04C427BDE582E3BD98D4F /* Pods-SIHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIHomework.release.xcconfig"; path = "Pods/Target Support Files/Pods-SIHomework/Pods-SIHomework.release.xcconfig"; sourceTree = "<group>"; };
 		87D23BB4EE0262B81DEA8443 /* Pods-SIHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIHomework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SIHomework/Pods-SIHomework.debug.xcconfig"; sourceTree = "<group>"; };
 		C61F0F3F1C062FC600FDFE2E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SIHomework/Main.storyboard; sourceTree = SOURCE_ROOT; };
-		C61F0F411C06328C00FDFE2E /* NetworkRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequestController.h; sourceTree = "<group>"; };
-		C61F0F421C06328C00FDFE2E /* NetworkRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequestController.m; sourceTree = "<group>"; };
+		C61F0F411C06328C00FDFE2E /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
+		C61F0F421C06328C00FDFE2E /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
 		C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListTableViewController.h; sourceTree = "<group>"; };
 		C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewController.m; sourceTree = "<group>"; };
 		C61F0F471C0658B200FDFE2E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
@@ -57,6 +57,15 @@
 				D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C61F0F4F1C06E7FD00FDFE2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */,
+				C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		E852E7311A07A01FDAA830D6 /* Pods */ = {
@@ -109,14 +118,13 @@
 		EF5AD97A1BFBC0AA00F1E208 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C61F0F4F1C06E7FD00FDFE2E /* ViewControllers */,
 				EF5AD97B1BFBC0AA00F1E208 /* AppDelegate.h */,
+				EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */,
 				C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */,
 				C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */,
-				EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */,
-				C61F0F411C06328C00FDFE2E /* NetworkRequestController.h */,
-				C61F0F421C06328C00FDFE2E /* NetworkRequestController.m */,
-				C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */,
-				C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */,
+				C61F0F411C06328C00FDFE2E /* EventsController.h */,
+				C61F0F421C06328C00FDFE2E /* EventsController.m */,
 				C61F0F471C0658B200FDFE2E /* Event.h */,
 				C61F0F481C0658B200FDFE2E /* Event.m */,
 			);
@@ -252,7 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */,
-				C61F0F431C06328C00FDFE2E /* NetworkRequestController.m in Sources */,
+				C61F0F431C06328C00FDFE2E /* EventsController.m in Sources */,
 				C61F0F4D1C06D76B00FDFE2E /* EventTableViewCell.m in Sources */,
 				C61F0F491C0658B200FDFE2E /* Event.m in Sources */,
 				C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */,
