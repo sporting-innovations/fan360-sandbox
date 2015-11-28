@@ -8,6 +8,7 @@
 
 #import "EventListTableViewController.h"
 #import "EventTableViewCell.h"
+#import "EventViewController.h"
 #import "Event.h"
 
 @interface EventListTableViewController ()
@@ -87,15 +88,23 @@
 }
 */
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    EventViewController *vc = (EventViewController *)[segue destinationViewController];
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    EventTableViewCell *selectedCell = [self.tableView cellForRowAtIndexPath:indexPath];
+    for (Event *event in self.eventsController.events) {
+        if ([event.primaryName isEqualToString:selectedCell.primaryTitleLabel.text]) {
+            vc.event = event;
+        }
+    }
 }
-*/
+
 
 #pragma mark - EventsControllerDelegate
 

@@ -29,8 +29,8 @@
 		C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewController.m; sourceTree = "<group>"; };
 		C61F0F471C0658B200FDFE2E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
 		C61F0F481C0658B200FDFE2E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
-		C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
-		C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTableViewCell.h; path = ../Source/EventTableViewCell.h; sourceTree = "<group>"; };
+		C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventTableViewCell.m; path = ../Source/EventTableViewCell.m; sourceTree = "<group>"; };
 		C6FF3BB31C09743E003F4AA7 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
 		C6FF3BB41C09743E003F4AA7 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIHomework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,8 +126,6 @@
 				C61F0F4F1C06E7FD00FDFE2E /* ViewControllers */,
 				EF5AD97B1BFBC0AA00F1E208 /* AppDelegate.h */,
 				EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */,
-				C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */,
-				C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */,
 				C61F0F411C06328C00FDFE2E /* EventsController.h */,
 				C61F0F421C06328C00FDFE2E /* EventsController.m */,
 				C61F0F471C0658B200FDFE2E /* Event.h */,
@@ -139,6 +137,8 @@
 		EF5AD9811BFBC0F500F1E208 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */,
+				C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */,
 				C61F0F3F1C062FC600FDFE2E /* Main.storyboard */,
 			);
 			path = Views;

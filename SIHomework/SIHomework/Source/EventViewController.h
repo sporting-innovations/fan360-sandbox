@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Event.h"
 
 @interface EventViewController : UIViewController
+
+@property (strong, nonatomic) Event *event;
+
+@property (weak, nonatomic) IBOutlet UILabel *primaryTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *secondaryTitleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *eventImageView;
 
 @end

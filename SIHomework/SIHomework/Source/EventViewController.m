@@ -16,7 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.primaryTitleLabel.text = self.event.primaryName;
+    self.secondaryTitleLabel.text = self.event.secondaryName;
+    self.dateLabel.text = self.event.startDateTime;
+    self.descriptionLabel.text = self.event.eventDescription;
+    self.eventImageView.image = self.event.image;
 }
 
 - (void)didReceiveMemoryWarning {
