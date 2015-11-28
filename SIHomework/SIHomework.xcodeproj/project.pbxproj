@@ -13,6 +13,7 @@
 		C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */; };
 		C61F0F491C0658B200FDFE2E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F481C0658B200FDFE2E /* Event.m */; };
 		C61F0F4D1C06D76B00FDFE2E /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */; };
+		C6FF3BB51C09743E003F4AA7 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF3BB41C09743E003F4AA7 /* EventViewController.m */; };
 		EF5AD9651BFBC07300F1E208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD9641BFBC07300F1E208 /* main.m */; };
 		EF5AD9701BFBC07300F1E208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5AD96F1BFBC07300F1E208 /* Assets.xcassets */; };
 		EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */; };
@@ -30,6 +31,8 @@
 		C61F0F481C0658B200FDFE2E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
 		C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
 		C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		C6FF3BB31C09743E003F4AA7 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		C6FF3BB41C09743E003F4AA7 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
 		D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIHomework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5AD9601BFBC07300F1E208 /* SIHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5AD9641BFBC07300F1E208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +67,8 @@
 			children = (
 				C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */,
 				C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */,
+				C6FF3BB31C09743E003F4AA7 /* EventViewController.h */,
+				C6FF3BB41C09743E003F4AA7 /* EventViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */,
 				C61F0F431C06328C00FDFE2E /* EventsController.m in Sources */,
 				C61F0F4D1C06D76B00FDFE2E /* EventTableViewCell.m in Sources */,
+				C6FF3BB51C09743E003F4AA7 /* EventViewController.m in Sources */,
 				C61F0F491C0658B200FDFE2E /* Event.m in Sources */,
 				C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */,
 				EF5AD9651BFBC07300F1E208 /* main.m in Sources */,
