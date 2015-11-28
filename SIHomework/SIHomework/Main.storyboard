@@ -24,64 +24,93 @@
             </objects>
             <point key="canvasLocation" x="-505" y="349"/>
         </scene>
-        <!--Event List Table View Controller-->
+        <!--Events-->
         <scene sceneID="KD9-9a-e8y">
             <objects>
                 <tableViewController id="ARO-SS-K5V" customClass="EventListTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="b2d-rk-IWh">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="b2d-rk-IWh">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="eventItem" id="IeL-nc-DAi" customClass="EventTableViewCell">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="92" width="600" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IeL-nc-DAi" id="Nd1-EV-pcP">
-                                    <rect key="frame" x="0.0" y="0.0" width="567" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="567" height="99.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Da6-T1-n3H">
-                                            <rect key="frame" x="8" y="8" width="27.5" height="27.5"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDs-Iz-BNp">
+                                            <rect key="frame" x="80" y="8" width="478.5" height="17"/>
                                             <animations/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="Da6-T1-n3H" secondAttribute="height" id="YoY-4Q-q2m"/>
-                                            </constraints>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Title" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDs-Iz-BNp">
-                                            <rect key="frame" x="45.5" y="8" width="513.5" height="20.5"/>
-                                            <animations/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="Primary Name">
+                                                    <attributes>
+                                                        <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Description" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKE-79-zzr">
-                                            <rect key="frame" x="45.5" y="28.5" width="513.5" height="7"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Description" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKE-79-zzr">
+                                            <rect key="frame" x="80" y="46" width="478.5" height="45.5"/>
                                             <animations/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secondary Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h8q-hD-KZT">
+                                            <rect key="frame" x="80" y="27" width="478.5" height="17"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63H-8p-a6b">
+                                            <rect key="frame" x="8" y="8" width="62" height="19.5"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Da6-T1-n3H">
+                                            <rect key="frame" x="8" y="29.5" width="62" height="62"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Da6-T1-n3H" secondAttribute="height" id="YoY-4Q-q2m"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <animations/>
                                     <constraints>
                                         <constraint firstItem="EDs-Iz-BNp" firstAttribute="leading" secondItem="Da6-T1-n3H" secondAttribute="trailing" constant="10" id="0xF-WZ-Q5N"/>
+                                        <constraint firstItem="LKE-79-zzr" firstAttribute="top" secondItem="h8q-hD-KZT" secondAttribute="bottom" constant="2" id="5Re-L5-TaN"/>
+                                        <constraint firstItem="Da6-T1-n3H" firstAttribute="top" secondItem="63H-8p-a6b" secondAttribute="bottom" constant="2" id="5dI-j1-vlM"/>
+                                        <constraint firstItem="h8q-hD-KZT" firstAttribute="top" secondItem="EDs-Iz-BNp" secondAttribute="bottom" constant="2" id="8wZ-oH-u4r"/>
+                                        <constraint firstItem="EDs-Iz-BNp" firstAttribute="leading" secondItem="63H-8p-a6b" secondAttribute="trailing" constant="10" id="BWy-TJ-dcg"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="LKE-79-zzr" secondAttribute="trailing" id="Kjz-Y6-rhI"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="EDs-Iz-BNp" secondAttribute="trailing" id="Kva-Dt-AAo"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="h8q-hD-KZT" secondAttribute="trailing" id="TRE-iD-cnI"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="LKE-79-zzr" secondAttribute="bottom" id="Wyo-FB-7hL"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="Da6-T1-n3H" secondAttribute="bottom" id="Xw6-9O-pBq"/>
                                         <constraint firstItem="EDs-Iz-BNp" firstAttribute="top" secondItem="Nd1-EV-pcP" secondAttribute="topMargin" id="hMu-Al-Xi4"/>
                                         <constraint firstItem="LKE-79-zzr" firstAttribute="leading" secondItem="Da6-T1-n3H" secondAttribute="trailing" constant="10" id="krT-FX-2tl"/>
-                                        <constraint firstItem="LKE-79-zzr" firstAttribute="top" secondItem="EDs-Iz-BNp" secondAttribute="bottom" id="oTG-hv-w2A"/>
-                                        <constraint firstItem="Da6-T1-n3H" firstAttribute="top" secondItem="Nd1-EV-pcP" secondAttribute="topMargin" id="yVE-IM-YFP"/>
+                                        <constraint firstItem="h8q-hD-KZT" firstAttribute="leading" secondItem="Da6-T1-n3H" secondAttribute="trailing" constant="10" id="prd-qc-NIS"/>
+                                        <constraint firstItem="63H-8p-a6b" firstAttribute="leading" secondItem="Nd1-EV-pcP" secondAttribute="leadingMargin" id="y4m-rs-VRk"/>
                                         <constraint firstItem="Da6-T1-n3H" firstAttribute="leading" secondItem="Nd1-EV-pcP" secondAttribute="leadingMargin" id="yZO-rY-wG6"/>
+                                        <constraint firstItem="63H-8p-a6b" firstAttribute="top" secondItem="Nd1-EV-pcP" secondAttribute="topMargin" id="yg1-IN-ces"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <animations/>
                                 <connections>
+                                    <outlet property="dateLabel" destination="63H-8p-a6b" id="ZcE-7C-saA"/>
                                     <outlet property="descriptionLabel" destination="LKE-79-zzr" id="tHk-yr-hV6"/>
                                     <outlet property="eventImageView" destination="Da6-T1-n3H" id="DbW-rT-234"/>
-                                    <outlet property="titleLabel" destination="EDs-Iz-BNp" id="hEh-d6-nHT"/>
+                                    <outlet property="primaryTitleLabel" destination="EDs-Iz-BNp" id="IeI-Bu-7EK"/>
+                                    <outlet property="secondaryTitleLabel" destination="h8q-hD-KZT" id="6Cb-91-RTT"/>
                                     <segue destination="fa9-mf-4W8" kind="show" id="TvS-7C-AId"/>
                                 </connections>
                             </tableViewCell>
@@ -91,7 +120,7 @@
                             <outlet property="delegate" destination="ARO-SS-K5V" id="dE5-9K-oXz"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="1Vu-QC-DnV"/>
+                    <navigationItem key="navigationItem" title="Events" id="1Vu-QC-DnV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ru-Q3-Fh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

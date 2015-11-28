@@ -19,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableView.rowHeight = 100;
     self.eventsController = [[EventsController alloc] init];
     self.eventsController.delegate = self;
     [self.eventsController fetchEventList];
@@ -45,11 +44,11 @@
     
     // Configure the cell...
     Event *theEvent = self.eventsController.events[indexPath.row];
-    cell.titleLabel.text = theEvent.name;
-    cell.titleLabel.numberOfLines = 0;
+    cell.primaryTitleLabel.text = theEvent.primaryName;
+    cell.secondaryTitleLabel.text = theEvent.secondaryName;
     cell.descriptionLabel.text = theEvent.eventDescription;
-    cell.descriptionLabel.numberOfLines = 0;
-    cell.imageView.image = theEvent.image;
+    cell.dateLabel.text = theEvent.startDateTime;
+    cell.eventImageView.image = theEvent.image;
     
     return cell;
 }
