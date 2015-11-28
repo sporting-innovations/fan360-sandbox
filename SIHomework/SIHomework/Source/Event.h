@@ -15,8 +15,6 @@
 @property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *eventDescription;
 @property (strong, nonatomic) NSDate *startDateTime;
-@property (strong, nonatomic) NSDate *startDate;
-@property (strong, nonatomic) NSDate *startTime;
 @property (strong, nonatomic) UIImage *image;
 
 - (instancetype)initWithJSONObject:(NSDictionary *)dict;
