@@ -25,6 +25,7 @@
             [self.events addObject:[[Event alloc] initWithJSONObject:eventDict]];
             [self fetchImage:eventDict];
         }
+        [self sortArray];
         if ([self.delegate respondsToSelector:@selector(updateEvents)]) {
             [self.delegate updateEvents];
         }
@@ -55,6 +56,7 @@
                 ev.image = responseObject;
             }
         }
+        [self sortArray];
         if ([self.delegate respondsToSelector:@selector(updateEvents)]) {
             [self.delegate updateEvents];
         }
@@ -63,6 +65,12 @@
         NSLog(@"Image error: %@", error);
     }];
     [requestOperation start];
+}
+
+- (void)sortArray {
+    NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"startDateTime" ascending:YES];
+    NSArray *sortedArray = [self.events sortedArrayUsingDescriptors:@[sort]];
+    self.events = sortedArray;
 }
 
 @end
