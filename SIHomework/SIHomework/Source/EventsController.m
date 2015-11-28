@@ -26,8 +26,8 @@
             [self fetchImage:eventDict];
         }
         [self sortEventsArray];
-        if ([self.delegate respondsToSelector:@selector(updateEvents)]) {
-            [self.delegate updateEvents];
+        if ([self.delegate respondsToSelector:@selector(updatedEvents)]) {
+            [self.delegate updatedEvents];
         }
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
@@ -56,8 +56,8 @@
                 ev.image = responseObject;
             }
         }
-        if ([self.delegate respondsToSelector:@selector(updateEvents)]) {
-            [self.delegate updateEvents];
+        if ([self.delegate respondsToSelector:@selector(updatedEvents)]) {
+            [self.delegate updatedEvents];
         }
         NSLog(@"Response: %@", responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

@@ -10,7 +10,7 @@
 
 // Delegate protocol for Event update notifications
 @protocol EventsControllerDelegate <NSObject>
-- (void)updateEvents;
+- (void)updatedEvents;
 @end
 
 // Controller class for managing Events

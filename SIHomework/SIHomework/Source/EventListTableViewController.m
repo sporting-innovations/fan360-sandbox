@@ -67,7 +67,7 @@
 
 #pragma mark - EventsControllerDelegate
 
-- (void)updateEvents {
+- (void)updatedEvents {
     [self.tableView reloadData];
 }
 
