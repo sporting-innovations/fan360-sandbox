@@ -18,7 +18,9 @@
     [super viewDidLoad];
     self.primaryTitleLabel.text = self.event.primaryName;
     self.secondaryTitleLabel.text = self.event.secondaryName;
-    self.dateLabel.text = self.event.startDateTime;
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"MMM dd, HH:mm"];
+    self.dateLabel.text = [dateFormat stringFromDate:self.event.startDateTime];
     self.descriptionLabel.text = self.event.eventDescription;
     self.eventImageView.image = self.event.image;
 }

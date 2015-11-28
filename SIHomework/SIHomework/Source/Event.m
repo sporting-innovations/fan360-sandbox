@@ -16,8 +16,13 @@
     self.secondaryName = dict[@"secondaryName"][@"en-US"];
     self.name = [NSString stringWithFormat:@"%@ - %@", self.primaryName, self.secondaryName];
     self.eventDescription = dict[@"description"][@"en-US"];
-    self.startDate = dict[@"startDate"];
-    self.startDateTime = dict[@"startDateTime"];
+//    NSString *startDateString = dict[@"startDate"];
+    NSString *startDateTimeString = dict[@"startDateTime"];
+
+    NSString *dateSubstring = [startDateTimeString substringToIndex:[startDateTimeString length] - 5];
+    NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
+    [dateFormat setDateFormat:@"yyyy-MM-ddHH:mm:ss"];
+    self.startDateTime = [dateFormat dateFromString:[dateSubstring stringByReplacingOccurrencesOfString:@"T" withString:@""]];
     
     return self;
 }
