@@ -128,23 +128,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Primary Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dz-6s-zbs">
-                                <rect key="frame" x="242.5" y="240" width="116.5" height="20.5"/>
+                                <rect key="frame" x="242" y="240" width="116.5" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Secondary Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTQ-WU-HYk">
-                                <rect key="frame" x="234.5" y="268.5" width="131.5" height="20.5"/>
+                                <rect key="frame" x="234" y="268" width="131.5" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JfW-eF-GcM">
-                                <rect key="frame" x="256" y="409.5" width="88" height="20.5"/>
+                                <rect key="frame" x="258.5" y="357.5" width="83.5" height="19.5"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -177,7 +177,7 @@
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="JfW-eF-GcM" secondAttribute="trailing" constant="10" id="T6t-Y9-iuO"/>
                             <constraint firstItem="eeE-JU-o7Z" firstAttribute="top" secondItem="p2k-mf-raf" secondAttribute="bottom" constant="20" id="UjU-gs-j0d"/>
                             <constraint firstItem="1sP-MH-Ozu" firstAttribute="top" secondItem="mTQ-WU-HYk" secondAttribute="bottom" constant="8" id="WdO-Pc-XiG"/>
-                            <constraint firstItem="JfW-eF-GcM" firstAttribute="top" secondItem="1sP-MH-Ozu" secondAttribute="bottom" constant="92" id="YcX-Df-3sZ"/>
+                            <constraint firstItem="JfW-eF-GcM" firstAttribute="top" secondItem="1sP-MH-Ozu" secondAttribute="bottom" constant="40" id="YcX-Df-3sZ"/>
                             <constraint firstItem="1dz-6s-zbs" firstAttribute="top" secondItem="eeE-JU-o7Z" secondAttribute="bottom" constant="21" id="s0a-rC-KUw"/>
                         </constraints>
                     </view>

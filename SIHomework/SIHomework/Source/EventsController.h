@@ -1,19 +1,19 @@
 //
-//  NetworkRequestController.h
+//  EventsController.h
 //  SIHomework
 //
-//  Created by goodle on 11/25/15.
+//  Created by Joe DeCapo on 11/25/15.
 //  Copyright © 2015 Sporting Innovations. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
+// Delegate protocol for Event update notifications
 @protocol EventsControllerDelegate <NSObject>
-
 - (void)updateEvents;
-
 @end
 
+// Controller class for managing Events
 @interface EventsController : NSObject
 
 @property (weak, nonatomic) id<EventsControllerDelegate> delegate;

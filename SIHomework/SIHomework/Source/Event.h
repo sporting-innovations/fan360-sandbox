@@ -2,12 +2,13 @@
 //  Event.h
 //  SIHomework
 //
-//  Created by goodle on 11/25/15.
+//  Created by Joe DeCapo on 11/25/15.
 //  Copyright © 2015 Sporting Innovations. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
+// Model class for representing Events
 @interface Event : NSObject
 
 @property (strong, nonatomic) NSString *primaryName;

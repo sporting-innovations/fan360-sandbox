@@ -2,7 +2,7 @@
 //  EventListTableViewController.m
 //  SIHomework
 //
-//  Created by goodle on 11/25/15.
+//  Created by Joe DeCapo on 11/25/15.
 //  Copyright © 2015 Sporting Innovations. All rights reserved.
 //
 

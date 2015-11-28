@@ -1,8 +1,8 @@
 //
-//  NetworkRequestController.m
+//  EventsController.m
 //  SIHomework
 //
-//  Created by goodle on 11/25/15.
+//  Created by Joe DeCapo on 11/25/15.
 //  Copyright © 2015 Sporting Innovations. All rights reserved.
 //
 
@@ -69,7 +69,7 @@
 - (void)sortEventsArray {
     NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"startDateTime" ascending:NO];
     NSArray *sortedArray = [self.events sortedArrayUsingDescriptors:@[sort]];
-    self.events = sortedArray;
+    self.events = [sortedArray mutableCopy];
 }
 
 @end
