@@ -49,7 +49,7 @@
     cell.secondaryTitleLabel.text = theEvent.secondaryName;
     cell.descriptionLabel.text = theEvent.eventDescription;
     NSDateFormatter *dateFormat = [[NSDateFormatter alloc] init];
-    [dateFormat setDateFormat:@"MMM dd, HH:mm"];
+    [dateFormat setDateFormat:@"MMM dd, h:mm a"];
     cell.dateLabel.text = [dateFormat stringFromDate:theEvent.startDateTime];
     cell.eventImageView.image = theEvent.image;
     
