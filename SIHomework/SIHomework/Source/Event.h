@@ -13,7 +13,6 @@
 
 @property (strong, nonatomic) NSString *primaryName;
 @property (strong, nonatomic) NSString *secondaryName;
-@property (strong, nonatomic) NSString *name;
 @property (strong, nonatomic) NSString *eventDescription;
 @property (strong, nonatomic) NSDate *startDateTime;
 @property (strong, nonatomic) UIImage *image;

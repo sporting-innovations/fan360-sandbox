@@ -14,7 +14,6 @@
 - (instancetype)initWithJSONObject:(NSDictionary *)dict {
     self.primaryName = dict[@"primaryName"][@"en-US"];
     self.secondaryName = dict[@"secondaryName"][@"en-US"];
-    self.name = [NSString stringWithFormat:@"%@ - %@", self.primaryName, self.secondaryName];
     self.eventDescription = dict[@"description"][@"en-US"];
 //    NSString *startDateString = dict[@"startDate"];
     NSString *startDateTimeString = dict[@"startDateTime"];
