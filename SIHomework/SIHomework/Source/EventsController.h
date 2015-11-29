@@ -17,7 +17,7 @@
 @interface EventsController : NSObject
 
 @property (weak, nonatomic) id<EventsControllerDelegate> delegate;
-@property (strong, atomic) NSMutableArray *events;
+@property (strong, atomic) NSArray *events;
 
 - (void)fetchEventList;
 

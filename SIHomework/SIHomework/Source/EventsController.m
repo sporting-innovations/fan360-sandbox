@@ -18,13 +18,15 @@
     NSDictionary *parameters = @{@"token": @"ABmsLgpyv3oHoovLMFnqkt-HUbSkmV0hks5WWMktwA%3D%3D"};
     [manager GET:@"https://raw.githubusercontent.com/sporting-innovations/fan360-sandbox/master/service/events.json" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSLog(@"JSON: %@", responseObject);
+        NSMutableArray *theEvents = [[NSMutableArray alloc] init];
         for (NSDictionary *eventDict in responseObject) {
             if (nil == self.events) {
                 self.events = [[NSMutableArray alloc] init];
             }
-            [self.events addObject:[[Event alloc] initWithJSONObject:eventDict]];
+            [theEvents addObject:[[Event alloc] initWithJSONObject:eventDict]];
             [self fetchImage:eventDict];
         }
+        self.events = [theEvents copy];
         [self sortEventsArray];
         if ([self.delegate respondsToSelector:@selector(updatedEvents)]) {
             [self.delegate updatedEvents];
@@ -68,8 +70,7 @@
 
 - (void)sortEventsArray {
     NSSortDescriptor *sort = [NSSortDescriptor sortDescriptorWithKey:@"startDateTime" ascending:NO];
-    NSArray *sortedArray = [self.events sortedArrayUsingDescriptors:@[sort]];
-    self.events = [sortedArray mutableCopy];
+    self.events = [self.events sortedArrayUsingDescriptors:@[sort]];
 }
 
 @end
