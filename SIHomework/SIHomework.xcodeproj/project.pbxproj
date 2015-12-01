@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ABDF19709EE2057ED086F322 /* libPods-SIHomework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */; };
+		C61F0F401C062FC600FDFE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61F0F3F1C062FC600FDFE2E /* Main.storyboard */; };
+		C61F0F431C06328C00FDFE2E /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F421C06328C00FDFE2E /* EventsController.m */; };
+		C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */; };
+		C61F0F491C0658B200FDFE2E /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F481C0658B200FDFE2E /* Event.m */; };
+		C61F0F4D1C06D76B00FDFE2E /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */; };
+		C6FF3BB51C09743E003F4AA7 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FF3BB41C09743E003F4AA7 /* EventViewController.m */; };
 		EF5AD9651BFBC07300F1E208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD9641BFBC07300F1E208 /* main.m */; };
 		EF5AD9701BFBC07300F1E208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5AD96F1BFBC07300F1E208 /* Assets.xcassets */; };
 		EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */; };
-		EF5AD9801BFBC0AA00F1E208 /* SIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD97E1BFBC0AA00F1E208 /* SIViewController.m */; };
-		EF5AD9831BFBC21D00F1E208 /* SIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF5AD9821BFBC21D00F1E208 /* SIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2FB04C427BDE582E3BD98D4F /* Pods-SIHomework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIHomework.release.xcconfig"; path = "Pods/Target Support Files/Pods-SIHomework/Pods-SIHomework.release.xcconfig"; sourceTree = "<group>"; };
+		87D23BB4EE0262B81DEA8443 /* Pods-SIHomework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SIHomework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SIHomework/Pods-SIHomework.debug.xcconfig"; sourceTree = "<group>"; };
+		C61F0F3F1C062FC600FDFE2E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = SIHomework/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		C61F0F411C06328C00FDFE2E /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
+		C61F0F421C06328C00FDFE2E /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
+		C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListTableViewController.h; sourceTree = "<group>"; };
+		C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewController.m; sourceTree = "<group>"; };
+		C61F0F471C0658B200FDFE2E /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		C61F0F481C0658B200FDFE2E /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTableViewCell.h; path = ../Source/EventTableViewCell.h; sourceTree = "<group>"; };
+		C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventTableViewCell.m; path = ../Source/EventTableViewCell.m; sourceTree = "<group>"; };
+		C6FF3BB31C09743E003F4AA7 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		C6FF3BB41C09743E003F4AA7 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SIHomework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5AD9601BFBC07300F1E208 /* SIHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5AD9641BFBC07300F1E208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EF5AD96F1BFBC07300F1E208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF5AD9741BFBC07300F1E208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF5AD97B1BFBC0AA00F1E208 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EF5AD97D1BFBC0AA00F1E208 /* SIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIViewController.h; sourceTree = "<group>"; };
-		EF5AD97E1BFBC0AA00F1E208 /* SIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIViewController.m; sourceTree = "<group>"; };
-		EF5AD9821BFBC21D00F1E208 /* SIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDF19709EE2057ED086F322 /* libPods-SIHomework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51378D1904A6D42695E3344B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1001B6B5296C8D20DCB032A /* libPods-SIHomework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C61F0F4F1C06E7FD00FDFE2E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C61F0F441C0636E600FDFE2E /* EventListTableViewController.h */,
+				C61F0F451C0636E600FDFE2E /* EventListTableViewController.m */,
+				C6FF3BB31C09743E003F4AA7 /* EventViewController.h */,
+				C6FF3BB41C09743E003F4AA7 /* EventViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E852E7311A07A01FDAA830D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87D23BB4EE0262B81DEA8443 /* Pods-SIHomework.debug.xcconfig */,
+				2FB04C427BDE582E3BD98D4F /* Pods-SIHomework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF5AD9571BFBC07300F1E208 = {
 			isa = PBXGroup;
 			children = (
 				EF5AD9621BFBC07300F1E208 /* SIHomework */,
 				EF5AD9611BFBC07300F1E208 /* Products */,
+				E852E7311A07A01FDAA830D6 /* Pods */,
+				51378D1904A6D42695E3344B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,10 +123,13 @@
 		EF5AD97A1BFBC0AA00F1E208 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C61F0F4F1C06E7FD00FDFE2E /* ViewControllers */,
 				EF5AD97B1BFBC0AA00F1E208 /* AppDelegate.h */,
 				EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */,
-				EF5AD97D1BFBC0AA00F1E208 /* SIViewController.h */,
-				EF5AD97E1BFBC0AA00F1E208 /* SIViewController.m */,
+				C61F0F411C06328C00FDFE2E /* EventsController.h */,
+				C61F0F421C06328C00FDFE2E /* EventsController.m */,
+				C61F0F471C0658B200FDFE2E /* Event.h */,
+				C61F0F481C0658B200FDFE2E /* Event.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -87,7 +137,9 @@
 		EF5AD9811BFBC0F500F1E208 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				EF5AD9821BFBC21D00F1E208 /* SIViewController.xib */,
+				C61F0F4A1C06D76B00FDFE2E /* EventTableViewCell.h */,
+				C61F0F4B1C06D76B00FDFE2E /* EventTableViewCell.m */,
+				C61F0F3F1C062FC600FDFE2E /* Main.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF5AD9771BFBC07300F1E208 /* Build configuration list for PBXNativeTarget "SIHomework" */;
 			buildPhases = (
+				DEB06610C57F30703C190C2A /* Check Pods Manifest.lock */,
 				EF5AD95C1BFBC07300F1E208 /* Sources */,
 				EF5AD95D1BFBC07300F1E208 /* Frameworks */,
 				EF5AD95E1BFBC07300F1E208 /* Resources */,
+				CEBA5F5E51ED0688E318B60F /* Copy Pods Resources */,
+				5AFCA1FA7E0D95A33979FF10 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,20 +204,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5AD9831BFBC21D00F1E208 /* SIViewController.xib in Resources */,
+				C61F0F401C062FC600FDFE2E /* Main.storyboard in Resources */,
 				EF5AD9701BFBC07300F1E208 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5AFCA1FA7E0D95A33979FF10 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIHomework/Pods-SIHomework-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBA5F5E51ED0688E318B60F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SIHomework/Pods-SIHomework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEB06610C57F30703C190C2A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF5AD95C1BFBC07300F1E208 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF5AD9801BFBC0AA00F1E208 /* SIViewController.m in Sources */,
 				EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */,
+				C61F0F431C06328C00FDFE2E /* EventsController.m in Sources */,
+				C61F0F4D1C06D76B00FDFE2E /* EventTableViewCell.m in Sources */,
+				C6FF3BB51C09743E003F4AA7 /* EventViewController.m in Sources */,
+				C61F0F491C0658B200FDFE2E /* Event.m in Sources */,
+				C61F0F461C0636E600FDFE2E /* EventListTableViewController.m in Sources */,
 				EF5AD9651BFBC07300F1E208 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,23 +359,27 @@
 		};
 		EF5AD9781BFBC07300F1E208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87D23BB4EE0262B81DEA8443 /* Pods-SIHomework.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SIHomework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sportinginnovations.SIHW.SIHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		EF5AD9791BFBC07300F1E208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB04C427BDE582E3BD98D4F /* Pods-SIHomework.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SIHomework/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sportinginnovations.SIHW.SIHomework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -291,6 +402,7 @@
 				EF5AD9791BFBC07300F1E208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
