@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C789F2461C0FA1A000460969 /* NetworkRequests.m in Sources */ = {isa = PBXBuildFile; fileRef = C789F2431C0FA1A000460969 /* NetworkRequests.m */; settings = {ASSET_TAGS = (); }; };
+		C789F2471C0FA1A000460969 /* SIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C789F2451C0FA1A000460969 /* SIViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C789F2491C0FA1FE00460969 /* SIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C789F2481C0FA1FE00460969 /* SIViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		EF5AD9651BFBC07300F1E208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD9641BFBC07300F1E208 /* main.m */; };
+		EF5AD9701BFBC07300F1E208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF5AD96F1BFBC07300F1E208 /* Assets.xcassets */; };
+		EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C789F2421C0FA1A000460969 /* NetworkRequests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkRequests.h; sourceTree = "<group>"; };
+		C789F2431C0FA1A000460969 /* NetworkRequests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkRequests.m; sourceTree = "<group>"; };
+		C789F2441C0FA1A000460969 /* SIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIViewController.h; sourceTree = "<group>"; };
+		C789F2451C0FA1A000460969 /* SIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIViewController.m; sourceTree = "<group>"; };
+		C789F2481C0FA1FE00460969 /* SIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SIViewController.xib; sourceTree = "<group>"; };
+		EF5AD9601BFBC07300F1E208 /* SIHomework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SIHomework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF5AD9641BFBC07300F1E208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF5AD96F1BFBC07300F1E208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF5AD9741BFBC07300F1E208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF5AD97B1BFBC0AA00F1E208 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF5AD95D1BFBC07300F1E208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF5AD9571BFBC07300F1E208 = {
+			isa = PBXGroup;
+			children = (
+				EF5AD9621BFBC07300F1E208 /* SIHomework */,
+				EF5AD9611BFBC07300F1E208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF5AD9611BFBC07300F1E208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF5AD9601BFBC07300F1E208 /* SIHomework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF5AD9621BFBC07300F1E208 /* SIHomework */ = {
+			isa = PBXGroup;
+			children = (
+				EF5AD97A1BFBC0AA00F1E208 /* Source */,
+				EF5AD9811BFBC0F500F1E208 /* Views */,
+				EF5AD9631BFBC07300F1E208 /* Supporting Files */,
+			);
+			path = SIHomework;
+			sourceTree = "<group>";
+		};
+		EF5AD9631BFBC07300F1E208 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5AD96F1BFBC07300F1E208 /* Assets.xcassets */,
+				EF5AD9741BFBC07300F1E208 /* Info.plist */,
+				EF5AD9641BFBC07300F1E208 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF5AD97A1BFBC0AA00F1E208 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C789F2421C0FA1A000460969 /* NetworkRequests.h */,
+				C789F2431C0FA1A000460969 /* NetworkRequests.m */,
+				C789F2441C0FA1A000460969 /* SIViewController.h */,
+				C789F2451C0FA1A000460969 /* SIViewController.m */,
+				EF5AD97B1BFBC0AA00F1E208 /* AppDelegate.h */,
+				EF5AD97C1BFBC0AA00F1E208 /* AppDelegate.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EF5AD9811BFBC0F500F1E208 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C789F2481C0FA1FE00460969 /* SIViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF5AD95F1BFBC07300F1E208 /* SIHomework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF5AD9771BFBC07300F1E208 /* Build configuration list for PBXNativeTarget "SIHomework" */;
+			buildPhases = (
+				EF5AD95C1BFBC07300F1E208 /* Sources */,
+				EF5AD95D1BFBC07300F1E208 /* Frameworks */,
+				EF5AD95E1BFBC07300F1E208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SIHomework;
+			productName = SIHomework;
+			productReference = EF5AD9601BFBC07300F1E208 /* SIHomework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF5AD9581BFBC07300F1E208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Sporting Innovations";
+				TargetAttributes = {
+					EF5AD95F1BFBC07300F1E208 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = EF5AD95B1BFBC07300F1E208 /* Build configuration list for PBXProject "SIHomework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF5AD9571BFBC07300F1E208;
+			productRefGroup = EF5AD9611BFBC07300F1E208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF5AD95F1BFBC07300F1E208 /* SIHomework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF5AD95E1BFBC07300F1E208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C789F2491C0FA1FE00460969 /* SIViewController.xib in Resources */,
+				EF5AD9701BFBC07300F1E208 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF5AD95C1BFBC07300F1E208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C789F2471C0FA1A000460969 /* SIViewController.m in Sources */,
+				C789F2461C0FA1A000460969 /* NetworkRequests.m in Sources */,
+				EF5AD97F1BFBC0AA00F1E208 /* AppDelegate.m in Sources */,
+				EF5AD9651BFBC07300F1E208 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EF5AD9751BFBC07300F1E208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF5AD9761BFBC07300F1E208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF5AD9781BFBC07300F1E208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SIHomework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportinginnovations.SIHW.SIHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF5AD9791BFBC07300F1E208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SIHomework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportinginnovations.SIHW.SIHomework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF5AD95B1BFBC07300F1E208 /* Build configuration list for PBXProject "SIHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5AD9751BFBC07300F1E208 /* Debug */,
+				EF5AD9761BFBC07300F1E208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF5AD9771BFBC07300F1E208 /* Build configuration list for PBXNativeTarget "SIHomework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5AD9781BFBC07300F1E208 /* Debug */,
+				EF5AD9791BFBC07300F1E208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF5AD9581BFBC07300F1E208 /* Project object */;
+}
