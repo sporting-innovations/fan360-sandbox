@@ -7,6 +7,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SIViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 
 @end
