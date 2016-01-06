@@ -57,7 +57,6 @@ class StartupTask {
         } catch let error {
             print("got an error creating the request: \(error)")
         }
-        
     }
 
     func updateCurrentEntity(item:[String:AnyObject]) -> Bool{
@@ -81,7 +80,6 @@ class StartupTask {
         }
         
         return false
-        
     }
     
     func saveEntity(){
@@ -92,7 +90,6 @@ class StartupTask {
         } catch {
             print("Error updating Event!")
         }
-        
     }
     
     func insertNewEntity(item:[String:AnyObject]){
@@ -102,20 +99,6 @@ class StartupTask {
         event.processEvent(item)
         
         saveEntity()
-    }
-    
-    func saveImage (image:UIImage?, path: String ){
-        
-//        if let image = image {
-//            
-//            let fileURL = getDocumentsURL().URLByAppendingPathComponent("")
-//            
-//            if let pngImageData = UIImagePNGRepresentation(image) {
-//                pngImageData.writeToURL(fileURL, atomically: false)
-//            }
-//        }
-//       
-        
     }
     
     func loadImageFromPath(path: String) -> UIImage? {
@@ -128,7 +111,5 @@ class StartupTask {
         }
         print("Loading image from path: \(path)") // this is just for you to see the path in case you want to go to the directory, using Finder.
         return image
-        
     }
-    
 }

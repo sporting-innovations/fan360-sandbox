@@ -21,9 +21,6 @@ extension NSDate {
             formatter.dateStyle = NSDateFormatterStyle.LongStyle
             formatter.timeStyle = .MediumStyle
         }
-      
-      
-        
         return formatter.stringFromDate(self)
     }
 }

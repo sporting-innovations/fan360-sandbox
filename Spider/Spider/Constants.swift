@@ -16,14 +16,14 @@ class Constants {
         static let DATA_URL = BASE_URL + "events.json"
         static let IMAGE_URL = BASE_URL + "images/"
     }
-
+    
     struct PATH {
         static let BUNDLE = NSBundle.mainBundle()
         static let DOCUMENTS = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
         static let TEMP = NSTemporaryDirectory()
         static let IMAGES_FOLDER = PATH.DOCUMENTS.stringByAppendingString("/images/")
     }
-
+    
     struct DEFAULT_KEYS {
         static let RUN_COUNT = "runcount"
         static let DATA_READY = "DataReady"

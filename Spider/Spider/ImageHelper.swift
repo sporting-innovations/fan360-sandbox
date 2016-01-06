@@ -36,9 +36,7 @@ class ImageHelper: NSObject {
                 print("The file already exists at path: \(url)")
                 
                 return false
-                
             }
-                
             else {
                 
                 if let img = NSData(contentsOfURL: imageUrl){
@@ -62,7 +60,6 @@ class ImageHelper: NSObject {
             
             return false
         }
-        
         return false
     }
     

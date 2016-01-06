@@ -26,7 +26,7 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
         
         self.refreshControl = UIRefreshControl()
         self.refreshControl!.addTarget(self, action: "refreshData:", forControlEvents: UIControlEvents.ValueChanged)
-      
+        
         if let split = self.splitViewController {
             let controllers = split.viewControllers
             self.detailViewController = (controllers[controllers.count-1] as! UINavigationController).topViewController as? DetailViewController

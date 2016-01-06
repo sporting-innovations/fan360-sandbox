@@ -12,17 +12,13 @@ extension String
 {
     func toDateTime() -> NSDate
     {
-
-        //Create Date Formatter
+        
         let dateFormatter = NSDateFormatter()
         
-        //Specify Format of String to Parse
         dateFormatter.dateFormat =  "yyyy-MM-dd'T'HH:mm:ssZ"
         
-        //Parse into NSDate
         let dateFromString : NSDate = dateFormatter.dateFromString(self)!
         
-        //Return Parsed Date
         return dateFromString
     }
     
@@ -36,5 +32,4 @@ extension String
             return []
         }
     }
-
 }

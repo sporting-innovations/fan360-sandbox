@@ -143,7 +143,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         
         userDefaults.synchronize()
     }
-
-
 }
 
